@@ -1,0 +1,30 @@
+[HOST] 本地電腦
+[GUEST] 虛擬電腦
+
+1.Dcoker run (1) image > (2)container
+2.image from
+ - Docker Hub : public repository
+ - Dockerfile generate image
+2.Dockerfile_production
+ - download node:lts-alpine image
+ - generate custome image
+3.run image 
+
+production image
+- node_modules
+- source code
+- dist
+
+development image
+- node_modules
+development container
+- execute npm run serve
+local 1
+- source code
+- dist
+local 2
+- source code
+- dist
+local 3
+- source code
+- dist

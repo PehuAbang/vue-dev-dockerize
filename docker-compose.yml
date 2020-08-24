@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  vue-dev:
+    container_name: vue-dev
+    image: vue-env
+    volumes:
+    - $PWD:/app
+    network_mode:  "host"
+    #command: npm run serve   
+    ports: 
+    - "8080:8080"
